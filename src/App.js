@@ -7,6 +7,7 @@ import About from './components/About';
 import FAQs from './components/FAQs';
 import Footer from './components/Footer';
 import ContactModal from './components/ContactModal';
+import LogoSection from './components/LogoSection';
 
 function App() {
   // Modal state and functions
@@ -24,6 +25,7 @@ function App() {
       <FreePromo openModal={openModal} />
       <FAQs openModal={openModal} />
       <About openModal={openModal} />
+      <LogoSection openModal={openModal} />
       <Footer openModal={openModal} />
 
       {/* Render the ContactModal */}
