@@ -4,40 +4,80 @@
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Aight.fun",
+        "description": "Affordable website design and digital marketing services for small businesses. Starting at £50/month, we offer bespoke WordPress websites, SEO, hosting, and more.",
+        "url": "https://aight.fun",
+        "logo": "https://aight.fun/assets/logo.svg",
+        "image": "https://aight.fun/assets/preview-image.jpg",
+        "priceRange": "£",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Milton Keynes",
+          "addressCountry": "UK"
+        },
+        "sameAs": [
+          "https://instagram.com/aight.fun",
+          "https://linkedin.com/company/aight-fun"
+        ],
+        "service": [
+          {
+            "@type": "Service",
+            "name": "Custom Website Design",
+            "description": "Bespoke website designs tailored for small businesses, ensuring a unique brand identity online."
+          },
+          {
+            "@type": "Service",
+            "name": "SEO Optimization",
+            "description": "Search engine optimization services to improve your site's visibility and attract organic traffic."
+          },
+          {
+            "@type": "Service",
+            "name": "Digital Marketing",
+            "description": "Comprehensive digital marketing solutions, including PPC and social media marketing, to enhance your online presence."
+          }
+        ]
+      }
+      </script>
+      
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Aight.fun offers affordable website design, starting at just £50/month! Boost your business with bespoke web development, full hosting, SEO optimization, and digital marketing services tailored for small businesses. Explore custom WordPress builds and free monthly website offers!" />
+    <meta name="keywords" content="affordable website design, small business website, custom WordPress websites, SEO optimization, digital marketing for small businesses, web hosting, web development, aight.fun, free website offer" />
+
+    <meta property="og:title" content="Affordable Website Design for Small Businesses | Starting from £50/Month" />
+    <meta property="og:description" content="Aight.fun specializes in affordable, bespoke website designs for small businesses. Starting at £50/month, get SEO-optimized, secure, and high-quality websites with full hosting and marketing solutions." />
+    <meta property="og:image" content="https://aight.fun/assets/preview-image.jpg" />
+    <meta property="og:url" content="https://aight.fun" />
+    <meta property="og:type" content="website" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Affordable Website Design for Small Businesses | Aight.fun" />
+    <meta name="twitter:description" content="Starting at £50/month! Bespoke website designs, SEO, full hosting, and digital marketing solutions tailored for small businesses." />
+    <meta name="twitter:image" content="https://aight.fun/assets/preview-image.jpg" />
+
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/apple-touch-icon.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+
+
+    <title>Affordable Website Design & Digital Marketing | Aight.fun - Starting at £50/Month</title>
+
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4B34H1T7V2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-4B34H1T7V2');
+</script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
   </body>
 </html>
